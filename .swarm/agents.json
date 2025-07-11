@@ -1,0 +1,113 @@
+{
+  "agents": [
+    {
+      "id": "code-quality",
+      "name": "Code Quality Agent",
+      "capabilities": [
+        "TypeScript migration",
+        "Linting",
+        "Formatting",
+        "Code analysis"
+      ],
+      "improvements": [
+        "Added TypeScript",
+        "Configured Prettier",
+        "Updated ESLint"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security Agent",
+      "capabilities": [
+        "Security headers",
+        "Authentication",
+        "Rate limiting",
+        "Vulnerability scanning"
+      ],
+      "improvements": [
+        "Helmet integration",
+        "JWT auth",
+        "Rate limiting",
+        "Data sanitization"
+      ]
+    },
+    {
+      "id": "database",
+      "name": "Database Agent",
+      "capabilities": [
+        "Database setup",
+        "ORM configuration",
+        "Migration creation",
+        "Model generation"
+      ],
+      "improvements": [
+        "PostgreSQL setup",
+        "MongoDB config",
+        "User model",
+        "Migrations"
+      ]
+    },
+    {
+      "id": "api-docs",
+      "name": "API Documentation Agent",
+      "capabilities": [
+        "OpenAPI generation",
+        "Route documentation",
+        "Schema creation",
+        "Example generation"
+      ],
+      "improvements": [
+        "Swagger UI",
+        "OpenAPI spec",
+        "Route documentation"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring Agent",
+      "capabilities": [
+        "Logging setup",
+        "Metrics collection",
+        "Health checks",
+        "Performance tracking"
+      ],
+      "improvements": [
+        "Winston logger",
+        "Prometheus metrics",
+        "Health endpoints"
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Testing Agent",
+      "capabilities": [
+        "Test creation",
+        "Coverage setup",
+        "E2E testing",
+        "Test automation"
+      ],
+      "improvements": [
+        "Jest enhancement",
+        "Integration tests",
+        "E2E tests",
+        "Coverage config"
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps Agent",
+      "capabilities": [
+        "Containerization",
+        "CI/CD",
+        "Deployment config",
+        "Infrastructure as code"
+      ],
+      "improvements": [
+        "Docker multi-stage",
+        "K8s manifests",
+        "GitHub Actions",
+        "docker-compose"
+      ]
+    }
+  ]
+}
